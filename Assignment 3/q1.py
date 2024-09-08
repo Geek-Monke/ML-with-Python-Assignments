@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 # Create the DataFrame
 df = pd.DataFrame(data={
@@ -7,7 +8,7 @@ df = pd.DataFrame(data={
     'b': np.random.randint(0, 100, 30),
     'c': np.random.randint(0, 100, 30)
 })
-import matplotlib.pyplot as plt
+
 
 # Create a figure of size 15x8
 fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(8,10))
