@@ -1,5 +1,3 @@
-from PIL import Image
+for i, x in enumerate(['A', 'B', 'C']):
+    print(i, x)
 
-image = Image.open('Arijeet Ghosh_Iem_bca 2025.jpg')
-dpi = image.info['dpi']
-print(f"DPI: {dpi}")
